@@ -1,5 +1,5 @@
 import axios from '../../_snowpack/pkg/axios.js';
-const baseUrl = '/';
+const baseUrl = '/api';
 
 const initializeData = async () => {
   const response = await axios.get(baseUrl);

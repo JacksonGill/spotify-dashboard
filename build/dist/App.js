@@ -12,7 +12,7 @@ const App = () => {
   const [currentView, setCurrentView] = useState({});
   const [errorMessage, setErrorMessage] = useState(null);
   const [isDefault, setIsDefault] = useState(true);
-  console.log(data);
+
   useEffect(() => {
     (async () => {
       if (window.localStorage.getItem('spotify-dashboard-id')) {

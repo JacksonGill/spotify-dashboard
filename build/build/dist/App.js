@@ -4,7 +4,8 @@ import MainView from "./MainView.js";
 import Dashboard from "./Dashboard.js";
 import ExtraInfo from "./ExtraInfo.js";
 import AdditionalView from "./AdditionalView.js";
-import {isEmpty, pick} from "../_snowpack/pkg/lodash.js";
+import isEmpty from "../_snowpack/pkg/lodash/isEmpty.js";
+import pick from "../_snowpack/pkg/lodash/pick.js";
 import spotifyService from "./services/spotifyService.js";
 const App = () => {
   const [indexTracker, setIndexTracker] = useState(0);
