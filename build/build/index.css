@@ -97,6 +97,10 @@ header {
   border-radius: 40px;
 }
 
+.search label {
+  width: 30%;
+}
+
 .header-music-icon {
   width: 120px;
   transform: scale(2);
@@ -669,7 +673,7 @@ main {
     opacity: 0.6;
     padding: 0.2rem;
     width: 17%;
-    border-radius: 10px;
+    border-radius: 0;
   }
   .header-music-icon {
     display: none;
@@ -908,7 +912,7 @@ main {
   .guide2,
   .guide3,
   .guide4 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     height: 80%;
     padding: 1rem;
   }
