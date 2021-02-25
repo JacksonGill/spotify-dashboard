@@ -669,6 +669,7 @@ main {
     opacity: 0.6;
     padding: 0.2rem;
     width: 17%;
+    border-radius: 10px;
   }
   .header-music-icon {
     display: none;
@@ -907,9 +908,9 @@ main {
   .guide2,
   .guide3,
   .guide4 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     height: 80%;
-    padding: 0.8rem;
+    padding: 1rem;
   }
 
   .music-icon-2 {
