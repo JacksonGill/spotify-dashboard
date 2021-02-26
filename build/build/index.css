@@ -613,6 +613,17 @@ main {
   }
 }
 
+@media (max-width: 1320px) {
+  .search {
+    width: 50%;
+  }
+
+  .search label {
+    width: 40%;
+    font-size: 0.8rem;
+  }
+}
+
 @media (max-width: 800px) {
   html,
   body {
@@ -669,11 +680,11 @@ main {
   }
 
   #type {
-    margin-left: 0.6rem;
+    margin-left: 0rem;
     opacity: 0.6;
     padding: 0.2rem;
-    width: 17%;
-    border-radius: 0;
+    width: 24%;
+    border-radius: 10px;
   }
   .header-music-icon {
     display: none;
@@ -914,7 +925,7 @@ main {
   .guide4 {
     font-size: 0.6rem;
     height: 80%;
-    padding: 1rem;
+    padding: 0.8rem;
   }
 
   .music-icon-2 {
