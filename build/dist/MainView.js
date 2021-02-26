@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "../_snowpack/pkg/react.js";
 import {FaArrowLeft, FaArrowRight} from "../_snowpack/pkg/react-icons/fa.js";
 import backgroundStyles from "./config/backgroundStyles.js";
-import {has} from "../_snowpack/pkg/lodash.js";
+import has from "../_snowpack/pkg/lodash/has.js";
 const MainView = ({
   data,
   whatIsCurrentView,
